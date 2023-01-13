@@ -13,3 +13,11 @@ while(n > 0)
 ## 2. Установка Git
 Загружаем полседнюю версию Git с сайта https://git-scm.com/book/en/v2/Getting-Started-Installing-Git .
 Устанавливаем с настройками по умолчанию.
+
+## 3. Настройка Git
+
+При первом использовании Git необходимо представиться. Для этого нужно ввести в терминале две команды:
+```
+git config --global user.email "ВАШ email"
+git config --global user.name "ВАШЕ Имя"
+```
