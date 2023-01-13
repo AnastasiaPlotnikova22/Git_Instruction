@@ -21,3 +21,5 @@ while(n > 0)
 git config --global user.email "ВАШ email"
 git config --global user.name "ВАШЕ Имя"
 ```
+
+## 4. Инициализация репазитория
