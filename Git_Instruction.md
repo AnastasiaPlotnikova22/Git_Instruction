@@ -29,6 +29,7 @@ git config --global user.name "ВАШЕ Имя"
 git init
 ```
 После этой команды Git начнёт отслеживать изменения файлов проекта.
+Также данная команда отобразит нам в какой ветке мы находимся.
 
 ## 5. Получение информации о папке
 
@@ -36,4 +37,15 @@ git init
 ```
 git status
 ```
-Также данная команда отобразит нам в какой ветке мы находимся.
+После того как мы ввели данную команду, мы видем что у нас появляется ошибка и Git подсказывает что нам необходимо сделать.
+```
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Git_Instruction.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
